@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "../tailwind.css";
+
 @layer base {
   html {
     scroll-padding-top: 120px;
+    @apply font-sans;
   }
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

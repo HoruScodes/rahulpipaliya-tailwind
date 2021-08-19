@@ -7,11 +7,11 @@ export const Button = ({ children, href, color, ...props }) => {
       <Link href={href}>
         <a
           className={cx(
-            "block px-8 py-2 text-center transition duration-200 border rounded focus:outline-none",
+            " block px-8 py-2 text-center transition duration-200  shadow-md rounded focus:outline-none hover:shadow-lg hover:translate-y-px",
             {
-              "text-white bg-gray-900  border-transparent  hover:bg-white hover:text-gray-800 hover:border-gray-800":
+              "text-white bg-sViolate  border-transparent  hover:bg-sHover":
                 color === "primary",
-              "text-gray-600 border-gray-300 hover:border-gray-800 hover:text-gray-800":
+              "text-sViolate bg-white border-gray-300 hover:text-sHover":
                 color === "secondary",
             }
           )}
