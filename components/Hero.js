@@ -26,11 +26,10 @@ export const Hero = () => {
               working there for over a year, I came to Montréal, Canada to learn
               more at College LaSalle.
             </p>
-            <p className="mt-12">
+            {/* <p className="mt-12">
               I am currently looking for full-time opportunities.
             </p>
             <div className="mt-6 space-y-3 md:space-y-0 md:space-x-4 md:flex ">
-              `
               <Button
                 color="primary"
                 href="https://www.linkedin.com/in/rahulpipaliya/"
@@ -38,7 +37,6 @@ export const Hero = () => {
               >
                 Linkedin
               </Button>
-              `
               <Button
                 color="secondary"
                 href="https://github.com/horuscodes"
@@ -46,7 +44,7 @@ export const Hero = () => {
               >
                 Github
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex-shrink-0 mt-12 lg:px-4 lg:mt-0">
@@ -90,8 +88,7 @@ export const Hero = () => {
         </h1>
         <div className="flex flex-col  flex-start">
           <p className="my-4">
-            I am currently looking for full-time/Internship opportunities , my
-            inbox is always open. Whether you have a question or just want to
+            my inbox is always open. Whether you have a question or just want to
             say hi, I'll try my best to get back to you! Thank you!.
           </p>
           <div className="space-y-3 md:space-y-0 md:space-x-4 md:flex">
