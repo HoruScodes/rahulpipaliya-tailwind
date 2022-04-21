@@ -106,19 +106,15 @@ export const eventsData = [
     title: "Associate Software Developer",
     place: "Srkay Consulting Group",
     range: "Sept 2018 - Nov 2019",
-    work: [
-      "Developed a high-performance web platform for a SaaS business that facilitated and automated the design and deployment of content to hundreds of thousands of users.",
-      "Used Scrum Agile Methodology in my work (Daily Scrum Meeting, Sprint Backlog, 1on1 meeting)",
-      "Migrated Web-Applications from Angular4 to Angular7.",
-      "Generated REST APIs to Enable/Disable Features, Track Users Activity, Assign Roles to Users and Many More in Node.js.",
-      "Improved REST API’s Response by over 40% through analyzing and refactoring code.",
-      "Integrated jsPDF Library using jQuery to provide clients to download resumes.",
-      "Promptly resolved problems that occurred on live sites",
-    ],
   },
   {
     title: "PG Diploma",
     range: "Jan 2020 - July 2021",
     place: "College Lasalle , Montreal , QC",
+  },
+  {
+    title: "Web Developer",
+    range: "Nov 2021 - Present",
+    place: "Amilia , Montreal , QC",
   },
 ];

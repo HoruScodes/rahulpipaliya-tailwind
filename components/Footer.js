@@ -20,17 +20,9 @@ export const Footer = () => {
           <Link href="/">
             <a className="text-gray-500 hover:text-gray-600 transition">Home</a>
           </Link>
-          <Link href="/about">
-            <a className="text-gray-500 hover:text-gray-600 transition">Work</a>
-          </Link>
-          <Link href="/newsletter">
+          <Link href="/projects">
             <a className="text-gray-500 hover:text-gray-600 transition">
               Projects
-            </a>
-          </Link>
-          <Link href="/newsletter">
-            <a className="text-gray-500 hover:text-gray-600 transition">
-              About
             </a>
           </Link>
         </div>
