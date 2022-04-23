@@ -4,6 +4,7 @@ import {
   AiOutlineTwitter,
   AiOutlineGithub,
   AiOutlineInstagram,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 import { Button } from "./Button";
 
@@ -51,7 +52,6 @@ export const Header = () => {
           >
             <AiOutlineInstagram />
           </a>
-
           <a
             href="https://github.com/horusCodes"
             className="transition-colors text-gray-900 hover:text-gray-500 cursor-pointer"
@@ -59,6 +59,14 @@ export const Header = () => {
             rel="noreferrer"
           >
             <AiOutlineGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rahulpipaliya/"
+            className="transition-colors text-gray-900 hover:text-linkedinColor cursor-pointer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineLinkedin />
           </a>
         </p>
       </div>

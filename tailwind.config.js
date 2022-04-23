@@ -18,6 +18,7 @@ module.exports = {
         sGray: "#6B7393",
         sWhite: "#F6F9FC",
         sHover: "#7795f8",
+        linkedinColor: "#0E76A8",
       },
     },
   },

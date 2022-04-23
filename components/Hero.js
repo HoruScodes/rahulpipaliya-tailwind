@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="space-x-5 lg:flex item-center lg:-mx-4">
         <div className="lg:px-4 ">
           <h1 className="text-2xl font-bold text-gray-900 lg:text-4xl">
-            Hello! I am Rahul, a software engineer based in Montréal, QC.
+            Hello! I am Rahul, a software developer based in Montréal, QC.
           </h1>
           <div className="mt-4 text-gray-700">
             <p className="my-2">
@@ -26,10 +26,7 @@ export const Hero = () => {
               working there for over a year, I came to Montréal, Canada to learn
               more at College LaSalle.
             </p>
-            {/* <p className="mt-12">
-              I am currently looking for full-time opportunities.
-            </p>
-            <div className="mt-6 space-y-3 md:space-y-0 md:space-x-4 md:flex ">
+            {/* <div className="mt-6 space-y-3 md:space-y-0 md:space-x-4 md:flex ">
               <Button
                 color="primary"
                 href="https://www.linkedin.com/in/rahulpipaliya/"
