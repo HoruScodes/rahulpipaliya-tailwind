@@ -6,7 +6,7 @@ const Circle = () => {
   return (
     <div className="col-start-5 col-end-6  md:mx-auto relative mr-10">
       <div className="h-full w-6 flex items-center justify-center">
-        <div className="h-full w-0.5 bg-gray-100 pointer-events-none"></div>
+        <div className="h-full w-0.5 bg-sViolate pointer-events-none"></div>
       </div>
       <div className="w-6 h-6 absolute top-1/2 mt-3 border-2 border-indigo-600 rounded-full bg-gray-100 shadow"></div>
     </div>
@@ -45,7 +45,7 @@ const Timeline = () => {
       <div className="container pb-6 px-4 mx-auto">
         <div className="min-h-screen flex items-center justify-center">
           <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2">
-            {eventsData.map((element, index) => {
+            {eventsData.reverse().map((element, index) => {
               return (
                 <Card
                   {...element}

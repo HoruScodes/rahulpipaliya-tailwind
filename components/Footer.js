@@ -27,15 +27,15 @@ export const Footer = () => {
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://twitter.com/rahulpipaliya_">
+          <ExternalLink href="https://twitter.com/rahul_pipaliya1">
             Twitter
           </ExternalLink>
           <ExternalLink href="https://github.com/horuscodes">
             GitHub
           </ExternalLink>
-          <ExternalLink href="https://www.instagram.com/rahulpipaliya_">
+          {/* <ExternalLink href="https://www.instagram.com/rahulpipaliya_">
             Instagram
-          </ExternalLink>
+          </ExternalLink> */}
         </div>
       </div>
     </footer>

@@ -98,7 +98,7 @@ export const projectsData = [
 
 export const eventsData = [
   {
-    title: "Bachelor's Degree",
+    title: "Bachelor's In Information Technology",
     range: "May 2014 - May 2018",
     place: "Birla Vishwakaram Mahavidhyalaya , India",
   },
