@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useRef, useEffect } from "react";
 
-import Cursor from "./Cursor";
+import Cursor from "../components/Cursor/Cursor";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();

@@ -8,7 +8,7 @@ const Cursor = React.forwardRef((props, ref) => {
     innerAlpha = 1,
     innerScale = 0.7,
     innerSize = 8,
-    outerAlpha = 0.3,
+    outerAlpha = 0.2,
     outerScale = 5,
     outerSize = 18,
     trailingSpeed = 8,
