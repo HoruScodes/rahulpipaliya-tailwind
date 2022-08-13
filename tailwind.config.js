@@ -1,9 +1,12 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        jakarta: ["regular", "bold", "light", "medium"],
+      },
       screens: {
         xs: "320px",
         sm: "640px",

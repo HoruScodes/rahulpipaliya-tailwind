@@ -4,10 +4,29 @@
 
 @import "../tailwind.css";
 
+@font-face {
+  font-family: "bold";
+  src: url("../public/fonts/PlusJakartaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("../public/fonts/PlusJakartaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "medium";
+  src: url("../public/fonts/PlusJakartaSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "light";
+  src: url("../public/fonts/PlusJakartaSans-Light.ttf");
+}
+
 @layer base {
   html {
     scroll-padding-top: 120px;
-    @apply font-sans;
   }
 }
 
@@ -15,4 +34,12 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.hover-with-gradient-text {
+  @apply hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#7701f6] hover:via-[#b303ff] hover:to-[#f90382];
+}
+
+.gradient-text {
+  @layer gradient-to-r from-[#7701f6] via-[#b303ff] to-[#f90382];
 }

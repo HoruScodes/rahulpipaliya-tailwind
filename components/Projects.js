@@ -34,7 +34,7 @@ const Project = ({ project }) => {
                 <Screen>
                   <div style={{ fontSize: 0 }}>
                     <Image
-                      src={`/${project.image}`}
+                      src={`/images/${project.image}`}
                       alt="Project Preview"
                       width={500}
                       height={300}

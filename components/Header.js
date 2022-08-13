@@ -10,22 +10,19 @@ import { Button } from "./Button";
 
 export const Header = () => {
   return (
-    <div className="sticky top-0 z-10 py-2 bg-white md:py-6 md:mb-6">
-      <div className="container px-4 mx-auto lg:max-w-4xl md:flex md:items-center md:justify-between ">
+    <div className="top-0 z-10 py-2 md:py-6 md:mb-6">
+      <div className="container px-4 mx-auto lg:max-w-4xl md:flex md:items-center md:justify-between">
         <Link href="/">
-          <a className="font-medium transition-colors text-gray-900 tracking-wider hover:text-blue-500 uppercase">
-            Rahul Pipaliya
+          <a className="font-medium text-gray-900 tracking-wider uppercase hover-with-gradient-text">
+            Rahul
           </a>
         </Link>
-        <div className="flex md:items-center space-x-5 text-m">
-          {/* <Link href="/#about">
-            <a className="hover:translate-y-px">About</a>
-          </Link> */}
-          <Link href="/projects">
-            <a className="hover:translate-y-px">Projects</a>
-          </Link>
+        <div className="flex md:items-center space-x-5 text-m tracking-wider">
           <Link href="/timeline">
-            <a className="hover:translate-y-px">TimeLine</a>
+            <a className="hover-with-gradient-text">Experiences</a>
+          </Link>
+          <Link href="/projects">
+            <a className="hover-with-gradient-text">Projects</a>
           </Link>
           <Button
             color="primary"
