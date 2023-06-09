@@ -34,6 +34,7 @@ function MyApp({ Component, pageProps }) {
       <Cursor ref={cursorRef} />
       <Head>
         <title>Rahul Pipaliya</title>
+        <meta name="facebook-domain-verification" content="7w1d9u4505t7rgpkzpi7q2p0yvyr36" />
       </Head>
       <ThemeProvider enableColorScheme={false}>
         <Component {...pageProps} />
